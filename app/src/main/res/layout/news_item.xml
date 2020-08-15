@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/news_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/date_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/horizontal_dims"
+        android:paddingLeft="@dimen/horizontal_dims"
+        android:paddingTop="@dimen/vertical_dims"
+        android:textColor="@android:color/darker_gray"
+        android:textStyle="italic"
+        tools:text="2014-02-17" />
+
+    <TextView
+        android:id="@+id/time_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/horizontal_dims"
+        android:paddingLeft="@dimen/horizontal_dims"
+        android:textColor="@android:color/darker_gray"
+        android:textStyle="italic"
+        tools:text="12:05:47" />
+
+    <TextView
+        android:id="@+id/section_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/horizontal_dims"
+        android:paddingLeft="@dimen/horizontal_dims"
+        android:paddingTop="@dimen/vertical_dims"
+        android:textColor="@android:color/black"
+        android:textStyle="italic|bold"
+        tools:text="Section Name" />
+
+    <TextView
+        android:id="@+id/news_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/horizontal_dims"
+        android:paddingLeft="@dimen/horizontal_dims"
+        android:paddingTop="@dimen/vertical_dims_content"
+        android:paddingRight="@dimen/horizontal_dims"
+        android:paddingBottom="@dimen/vertical_dims_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        tools:text="This is the main headline." />
+
+</LinearLayout>
